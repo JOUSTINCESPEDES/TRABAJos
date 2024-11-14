@@ -1,0 +1,43 @@
+
+
+Algoritmo edades 
+	REpetir 
+		Aux=0
+		Escribir "escribe tu año de nacimiento. o digite == 0 para finalizar"
+		leer a 
+		Aux=2024 - a
+		si Aux>=18 y Aux <=55 Entonces
+			escribir "usuario valido"
+			escribir "El usuario tiene:  " ,Aux
+		siNo
+			si Aux<=18 y Aux<=55 Entonces
+				Escribir "usuario invalido"
+				escribir "El usuario tiene:  " ,Aux
+			siNo 
+				si Aux<=1 y Aux>=99 Entonces
+					escribir "usuario incorecto"
+					escribir "el usuario tiene" ,Aux
+				siNo
+					escribir "usuario incorecto intente nuevamente"
+					
+					
+				FinSi
+				
+			FinSi
+			
+		FinSi
+		
+		
+		
+		
+		
+		
+	Hasta Que a==0
+	
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
